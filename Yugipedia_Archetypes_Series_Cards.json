@@ -174,6 +174,241 @@
             "White Dragon Ritual (Duel Links)",
             "White Night Dragon (Duel Links)",
             "The White Stone of Legend (Duel Links)"
-        ]
+        ],
+        "Recommended": {
+            "Main Deck": {
+                "Monster Cards": {
+                    "Normal Monsters": [
+                        "Blue-Eyes White Dragon"
+                    ],
+                    "Effect Monsters": [
+                        "Blue-Eyes Abyss Dragon",
+                        "Blue-Eyes Alternative White Dragon",
+                        "Blue-Eyes Jet Dragon",
+                        "Blue-Eyes Solid Dragon",
+                        "Chronicle Magician",
+                        "Chronicle Sorceress",
+                        "Deep-Eyes White Dragon",
+                        "Dictator of D.",
+                        "Dragon Spirit of White",
+                        "Dracotail Faimena",
+                        "Dragolithia Kunzite",
+                        "Dark End Evaporation Dragon",
+                        "Light End Sublimation Dragon",
+                        "Bystial",
+                        "Bystial Baldrake",
+                        "Bystial Druiswurm",
+                        "Bystial Magnamhut",
+                        "The Bystial Lubellion",
+                        "Bystial Baldrake",
+                        "Bystial Druiswurm",
+                        "Bystial Magnamhut",
+                        "The Bystial Lubellion",
+                        "Chaos Dragon Levianeer",
+                        "Chaos Emperor Dragon - Envoy of the End",
+                        "Magicians' Souls",
+                        "Nebula Dragon",
+                        "Red-Eyes Darkness Metal Dragon",
+                        "Red-Eyes Black Fullmetal Dragon",
+                        "Regenesis",
+                        "Regenesis Archfiend",
+                        "Regenesis Dragon",
+                        "Regenesis Sage",
+                        "Regenesis Warrior",
+                        "Regenesis Archfiend",
+                        "Regenesis Dragon",
+                        "Regenesis Sage",
+                        "Regenesis Warrior",
+                        "Primite",
+                        "Primite Imperial Dragon",
+                        "Primite Dragon Ether Beryl",
+                        "Primite Imperial Dragon",
+                        "Primite Dragon Ether Beryl"
+                    ],
+                    "Tuner monsters": [
+                        "Kaibaman the Legend",
+                        "Maiden of White",
+                        "Maiden with Eyes of Blue",
+                        "Master with Eyes of Blue",
+                        "Neo Kaiser Sea Horse",
+                        "Priestess with Eyes of Blue",
+                        "Protector with Eyes of Blue",
+                        "Sage with Eyes of Blue",
+                        "The White Stone of Ancients",
+                        "The White Stone of Legend",
+                        "Assault Synchron",
+                        "Effect Veiler",
+                        "Ringowurm, the Dragon Guarding the Hundred Apples",
+                        "Lunar Rabbit Omajinai"
+                    ],
+                    "Pendulum Monsters": [
+                        "Chaos Emperor, the Dragon of Armageddon"
+                    ],
+                    "Ritual Monsters": [
+                        "Blue-Eyes Chaos MAX Dragon",
+                        "Blue-Eyes Chaos Dragon",
+                        "Black Luster Soldier - Legendary Swordsman",
+                        "Illusion of Chaos"
+                    ]
+                },
+                "Spell Cards": {
+                    "Normal Spells": [
+                        "Wishes for Eyes of Blue",
+                        "Bingo Machine, Go!!!",
+                        "Burst Stream of Destruction",
+                        "Roar of the Blue-Eyed Dragons",
+                        "Neutron Blast",
+                        "The Melody of Awakening Dragon",
+                        "Cards of Consonance",
+                        "Chaos Space",
+                        "Dragon Shrine",
+                        "Dragon's Mirror",
+                        "Fusion Armament",
+                        "Fusion Draft",
+                        "Primite Fusion",
+                        "Regenesis (card)",
+                        "Regenesis Cycle",
+                        "Return of the Dragon Lords",
+                        "Shadow's Light",
+                        "Synchro Rumble",
+                        "Trade-In"
+                    ],
+                    "Equip Spells": [
+                        "Beacon of White"
+                    ],
+                    "Field Spells": [
+                        "Mausoleum of White",
+                        "Dragon Ravine"
+                    ],
+                    "Ritual Spells": [
+                        "Advanced Ritual Art",
+                        "Chaos Form",
+                        "High Ritual Art"
+                    ],
+                    "Continuous Spells": [
+                        "Vision with Eyes of Blue",
+                        "Strength in Unity",
+                        "Piercing the Darkness",
+                        "Primite Lordly Lode"
+                    ],
+                    "Quick-Play Spells": [
+                        "Majesty with Eyes of Blue",
+                        "Ultimate Fusion",
+                        "Silver's Cry",
+                        "Successor Soul",
+                        "Duality",
+                        "Primite Drillbeam",
+                        "Primite Roar",
+                        "Saga of the Dragon Emperor",
+                        "The Gaze of Timaeus"
+                    ]
+                },
+                "Trap Cards": {
+                    "Normal Traps": [
+                        "Majesty of the White Dragons",
+                        "The Ultimate Creature of Destruction",
+                        "Destined Rivals",
+                        "Max Metalmorph",
+                        "Guardragon Cataclysm",
+                        "Primite Howl"
+                    ],
+                    "Counter Traps": [
+                        "Champion's Vigilance",
+                        "Dragon's Mind",
+                        "Fists of the Unrivaled Tenyi",
+                        "Primite Scream"
+                    ],
+                    "Continuous Traps": [
+                        "True Light"
+                    ]
+                }
+            },
+            "Extra Deck": {
+                "Fusion Monsters": [
+                    "Blue-Eyes Alternative Ultimate Dragon",
+                    "Blue-Eyes Twin Burst Dragon",
+                    "Blue-Eyes Tyrant Dragon",
+                    "Blue-Eyes Ultimate Dragon",
+                    "Dragon Master Magia",
+                    "Neo Blue-Eyes Ultimate Dragon",
+                    "Dark Magician of Destruction",
+                    "Red-Eyes Dark Dragoon",
+                    "Red-Eyes Dark Dragoon",
+                    "Filia Regis",
+                    "First of the Dragonlords",
+                    "First of the Dragons",
+                    "Khaos Starsource Dragon",
+                    "Light and Darkness Dragonlord",
+                    "Primite Dragon Nether Berzelius",
+                    "Secreterion Dragon"
+                ],
+                "Synchro Monsters": [
+                    "Azure-Eyes Silver Dragon",
+                    "Blue-Eyes Spirit Dragon",
+                    "Ancient Fairy Dragon",
+                    "Ancient Fairy Life Dragon",
+                    "Black Rose Moonlight Dragon",
+                    "Michael, the Arch-Lightsworn",
+                    "Lightstorm Dragon",
+                    "Golden Cloud Beast - Malong",
+                    "Ancient Fairy Dragon",
+                    "Ancient Fairy Life Dragon",
+                    "Black Rose Moonlight Dragon",
+                    "Michael, the Arch-Lightsworn",
+                    "Lightstorm Dragon",
+                    "Golden Cloud Beast - Malong",
+                    "Blue-Eyes Ultimate Spirit Dragon",
+                    "Crimson Dragon (card)",
+                    "Cosmic Blazar Dragon",
+                    "Snake-Eyes Vengeance Dragon",
+                    "Stardust Sifr Divine Dragon",
+                    "Hot Red Dragon Archfiend Abyss",
+                    "Trishula, Dragon of the Ice Barrier",
+                    "Cosmic Blazar Dragon",
+                    "Snake-Eyes Vengeance Dragon",
+                    "Stardust Sifr Divine Dragon",
+                    "Hot Red Dragon Archfiend Abyss",
+                    "Trishula, Dragon of the Ice Barrier",
+                    "Bystial Dis Pater",
+                    "Chaos Angel",
+                    "Navy Dragon Mech",
+                    "Vermillion Dragon Mech"
+                ],
+                "Xyz Monsters": [
+                    "Indigo-Eyes Silver Dragon",
+                    "Dingirsu, the Orcust of the Evening Star",
+                    "DoomZ XII End - Drastrius",
+                    "Galaxy-Eyes",
+                    "Galaxy-Eyes Cipher Dragon",
+                    "Galaxy-Eyes Full Armor Photon Dragon",
+                    "Galaxy-Eyes Cipher Blade Dragon",
+                    "Number 38: Hope Harbinger Dragon Titanic Galaxy",
+                    "Number 90: Galaxy-Eyes Photon Lord",
+                    "Number 100: Numeron Dragon",
+                    "Galaxy-Eyes Cipher Dragon",
+                    "Galaxy-Eyes Full Armor Photon Dragon",
+                    "Galaxy-Eyes Cipher Blade Dragon",
+                    "Number 38: Hope Harbinger Dragon Titanic Galaxy",
+                    "Number 90: Galaxy-Eyes Photon Lord",
+                    "Number 100: Numeron Dragon",
+                    "Hieratic",
+                    "Hieratic Sun Dragon Overlord of Heliopolis",
+                    "Hieratic Sky Dragon Overlord of Heliopolis",
+                    "Hieratic Sun Dragon Overlord of Heliopolis",
+                    "Hieratic Sky Dragon Overlord of Heliopolis",
+                    "Number 1: Infection Buzzking",
+                    "Number 97: Draglubion",
+                    "Thunder End Dragon",
+                    "The Zombie Vampire"
+                ],
+                "Link Monsters": [
+                    "Spirit with Eyes of Blue",
+                    "Selene, Queen of the Master Magicians",
+                    "Black Luster Soldier - Soldier of Chaos",
+                    "Dragunity Knight - Romulus",
+                    "Hieratic Seal of the Heavenly Spheres"
+                ]
+            }
+        }
     }
 }
