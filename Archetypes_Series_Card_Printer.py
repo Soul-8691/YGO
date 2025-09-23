@@ -19,7 +19,7 @@ card_dict = {card["name"]: card for card in ygopro_data}
 # Open output TSV
 with open(output_file, "w", encoding="utf-8") as out:
     # Write header
-    out.write("Archetype\tDesignation\tName\tKonami_ID\tCard_ID\tType\tAttribute\tRace\tLevel\tATK\tDEF\tDescription\n")
+    out.write("Name\tKonami ID\tCard ID\tType\tAttribute\tRace\tLevel\tATK\tDEF\tDescription\tArchetype\tDesignation\n")
 
     # Iterate over archetypes
     for archetype_name, sections in archetypes_data.items():
@@ -41,7 +41,7 @@ with open(output_file, "w", encoding="utf-8") as out:
                 defe = card.get("def", 0)
                 desc = card.get("desc", "").replace("\t", "    ").replace("\r\n", "\\n").replace("\n", "\\n")
 
-                out.write(f"{archetype_name}\t{designation}\t{name}\t{konami_id}\t{cid}\t{ctype}\t{attribute}\t{race}\t{level}\t{atk}\t{defe}\t{desc}\n")
+                out.write(f"{name}\t{konami_id}\t{cid}\t{ctype}\t{attribute}\t{race}\t{level}\t{atk}\t{defe}\t{desc}\t{archetype_name}\t{designation}\n")
 
         # Handle Recommended cards
         recommended = sections.get("Recommended", {})
@@ -63,7 +63,7 @@ with open(output_file, "w", encoding="utf-8") as out:
                             atk = card.get("atk", 0)
                             defe = card.get("def", 0)
                             desc = card.get("desc", "").replace("\t", "    ").replace("\r\n", "\\n").replace("\n", "\\n")
-                            out.write(f"{archetype_name}\tRecommended\t{name}\t{konami_id}\t{cid}\t{ctype}\t{attribute}\t{race}\t{level}\t{atk}\t{defe}\t{desc}\n")
+                            out.write(f"{name}\t{konami_id}\t{cid}\t{ctype}\t{attribute}\t{race}\t{level}\t{atk}\t{defe}\t{desc}\t{archetype_name}\tRecommended\n")
                 else:  # Extra Deck (Fusion/Synchro/Xyz/Link)
                     for card_name in subcat_value:
                         card = card_dict.get(card_name)
@@ -79,4 +79,4 @@ with open(output_file, "w", encoding="utf-8") as out:
                         atk = card.get("atk", 0)
                         defe = card.get("def", 0)
                         desc = card.get("desc", "").replace("\t", "    ").replace("\r\n", "\\n").replace("\n", "\\n")
-                        out.write(f"{archetype_name}\tRecommended\t{name}\t{konami_id}\t{cid}\t{ctype}\t{attribute}\t{race}\t{level}\t{atk}\t{defe}\t{desc}\n")
+                        out.write(f"{name}\t{konami_id}\t{cid}\t{ctype}\t{attribute}\t{race}\t{level}\t{atk}\t{defe}\t{desc}\t{archetype_name}\tRecommended\n")
