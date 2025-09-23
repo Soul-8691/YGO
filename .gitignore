@@ -205,3 +205,7 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+.env
+Format_Library_Usage_Stats.tsv
+YAML_Yugi_Cards.json
+YGOProDeck_Cards.json
