@@ -1,7 +1,7 @@
 import requests
 import json
 
-f = open("YGOProDeck.json", "w")
+f = open("YGOProDeck_Cards.json", "w")
 url = "https://db.ygoprodeck.com/api/v7/cardinfo.php?misc=yes"
 res = requests.get(url)
 data = json.dumps(res.json(), indent=4)
