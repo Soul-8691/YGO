@@ -4,7 +4,7 @@ import json
 from dateutil import parser
 from tqdm import tqdm
 
-format_library_formats = ['yugi-kaiba', 'critter', 'treasure', 'imperial', 'android', 'joey-pegasus', 'fiber', 'yata', 'scientist', 'vampire', 'chaos', 'warrior', 'goat', 'cyber', 'reaper']
+format_library_formats = ['goat']
 
 # This code gets the most used decks of all recent events of a particular format
 formats_json = open('Format_Library_Formats.json', 'r', encoding='utf8')
@@ -31,7 +31,7 @@ for f in formats:
     status[f]['cards'] = set()
     status[f]['card_flags'] = dict()
     finalised_data = dict()
-    dt = requests.get(f"{site}/api/events/recent/{f}").json()["events"]
+    dt = requests.get(f"{site}/api/events/gallery/{f}").json()["events"]
     for event_info in dt:
         print(f"Going through {f + ' ' + event_info['abbreviation']} event's decks")
         event = requests.get(f"{site}/api/events/{event_info['abbreviation']}?isAdmin=false&isSubscriber=false").json()
